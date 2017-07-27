@@ -1,0 +1,150 @@
+
+/* basic stuff */
+/************************************************************/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Open Sans";
+}
+
+.section {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.part {
+	margin: 8px 0;
+}
+
+.inline-row {
+	display: inline-table;
+}
+
+.centered {
+	width: auto;
+}
+
+table {
+	padding: 0;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+table, tr, td {
+	border-collapse: collapse;
+}
+
+tr, td {
+	padding: 0;
+	margin: 0;
+}
+
+.example-label {
+	display: inline-block;
+	width: 100px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+p {
+	max-width: 800px;
+}
+
+th {
+	border: 2px solid black;
+	height: 30px;
+}
+
+td {
+	border: 1px solid gray;
+	width: 30px;
+	text-align: center;
+}
+
+th.row {
+	text-align: right;
+}
+
+th.row > span {
+	font-size: 18px;
+	padding: 0 5px;
+}
+
+th.col {
+	vertical-align: bottom;
+}
+
+th.col > span {
+	display: block;
+	font-size: 18px;
+}
+
+td.cell {
+	font-size: 150%;
+	line-height: 0;
+}
+
+i {
+	padding: 0;
+	margin: 0;
+}
+
+i.yes {
+	color: black;
+}
+
+i.guess {
+	color: purple;
+}
+
+i.no {
+	color: #c77;
+}
+
+pre {
+	tab-size: 4;
+}
+
+pre span {
+	color: #222;
+}
+
+pre span.fundecl {
+	color: #055;
+}
+
+pre span.kw {
+	color: black;
+	font-weight: bold;
+}
+
+pre span.fun {
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+
+pre span.const {
+	color: #606;
+	font-weight: bold;
+}
+
+pre span.var {
+	font-style: italic;
+}
+
